@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order <form action=""></form></title>
+  <style>
+*{
+  font-family: 'poppins', sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #2ecc71 60%,#27ae60 40.1% );
+  padding-bottom: 70px;
+}
+.container form{
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgb(0,0,0,.1);
+}
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+}
+.container form .row .col{
+  flex: 1 1 250px;
+}
+.container form .row .col .title{
+  font-size: 20px;
+  color: black;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.container form .row .col .inputbox{
+  margin: 15px 0;
+}
+.container form .row .col .inputbox span{
+  margin-bottom: 20px;
+  display: block;
+}
+.container form .row .col .inputbox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+.container form .row .col .inputbox input:focus{
+  border: 1px solid #000;
+}
+.container form .submit-btn{
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.container form .submit-btn:hover{
+  background: gray;
+}
+
+
+  </style>
+
+</head>
+<body>
+   <div class="container">
+
+    <form action="">
+
+      <div class="row">
+
+        <div class="col">
+
+          <h3 class="title">Billing Addres</h3>
+
+      <div class="inputbox">
+        <span>full name</span>
+        <input type="text" placeholder="name">
+      </div> 
+
+      <div class="inputbox">
+        <span>email</span>
+        <input type="text" placeholder="example@gmail.com">
+      </div>
+
+      <div class="inputbox">
+        <span>Address</span>
+        <input type="text" placeholder="PostalAddress">
+      </div> 
+ 
+      <div class="inputbox">
+        <span>City</span>
+        <input type="text" placeholder="Gaborone">
+      </div> 
+    <div class="flex">
+      <div class="inputbox">
+      <span>Country</span>
+      <input type="text" placeholder="Botswana">
+    </div> 
+    <div class="inputbox">
+      <span>Zip Code</span>
+      <input type="text" placeholder="123">
+
+    </div> 
+
+</div>
+
+     </div>
+     <div class="col">
+
+      <h3 class="title">Payment</h3>
+
+      <div class="inputbox">
+        <span>cards accepted</span>
+        <img src="images/payment-removebg-preview.png" height="165px" alt="">
+      </div>    
+
+  <div class="inputbox">
+    <span>item </span>
+    <input type="text" placeholder="john wick">
+  </div> 
+
+  <div class="inputbox">
+    <span>name on card</span>
+    <input type="text" placeholder="Mr.Seven">
+  </div>
+
+  <div class="inputbox">
+    <span>credit card number</span>
+    <input type="text" placeholder="1111-2222-3333-4444">
+  </div> 
+
+  <div class="inputbox">
+    <span>exp month</span>
+    <input type="text" placeholder="May">
+  </div> 
+<div class="flex">
+  <div class="inputbox">
+  <span>exp year</span>
+  <input type="text" placeholder="2031">
+</div> 
+<div class="inputbox">
+  <span>CVV</span>
+  <input type="text" placeholder="4444">
+
+</div> 
+
+</div>
+
+ </div>
+
+
+      </div>
+      <input type="submit" value="Proceed to checkout" class="submit-btn">
+  
+    </form>
+
+   </div>
+
+</body>
+</html>
