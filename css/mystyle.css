@@ -125,7 +125,7 @@ button {
 .images {
     display: flex;
     width: 700%; /* Total width = number of images * 100% */
-    animation: slideShow 120s alternate infinite; /* Adjust the duration as needed */
+    animation: slideShow 120s linear infinite; /* Adjust the duration as needed */
 }
 
 .images img {
