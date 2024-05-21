@@ -286,3 +286,8 @@ nav {
 .header-menu li:last-child {
     margin-right: 0;
 }
+@media only screen and ( max-width: 414px) {
+    body{
+        visibility: visible;
+    }
+}
